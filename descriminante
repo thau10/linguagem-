@@ -1,0 +1,15 @@
+nt main() {
+    float a, b, c, discriminante;
+    // Entrada dos coeficientes
+    printf("Digite o valor de a:");
+    scanf("%f", &a);
+    printf("Digite o valor de b:");
+    scanf("%f", &b);
+    printf("Digite o valor de c:");
+    scanf("%f", &c);
+    
+    // Cálculo do de descriminante
+    descriminante = b * b - 4 * a * c;
+
+    return 0;
+}
